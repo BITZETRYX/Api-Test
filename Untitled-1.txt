@@ -1,0 +1,2 @@
+"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2OTQ5YTBkYmZjNzQ1YmY3ODdmNTMwYTQiLCJyb2xlIjoidXNlciIsImlhdCI6MTc2NjQzMzA0MywiZXhwIjoxNzY3MDM3ODQzfQ.RCT3F44gcMDnpCSJ1tOhuX6EGzvpVRWv-pXqybt1MrI
+{ "phone": "64373412121",  "password": "test@123" }
