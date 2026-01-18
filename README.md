@@ -52,14 +52,13 @@ Node.js + Express + MongoDB API with authentication, product listings, order han
 - `GET /api/products`
   - Query (optional): `category`, `inStock`
 
-### Orders (auth required)
+### Orders
 - `POST /api/orders`
   - Body: `{ "items": [{ "productId": "", "quantity": 1 }], "notes": "" }`
 - `GET /api/orders`
 
-### Logs (admin only)
+### Logs
 - `GET /api/logs?limit=100`
 
 ## Notes
-- Orders require a valid JWT; unregistered users cannot place orders.
 - Logs are stored in MongoDB (`logs` collection).
