@@ -10,6 +10,8 @@ const orderSchema = Joi.object({
     )
     .min(1)
     .required(),
+  phone: Joi.string().max(50).optional(),
+  userPhone: Joi.string().max(50).optional(),
   notes: Joi.string().max(500).allow('').optional()
 });
 

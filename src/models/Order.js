@@ -13,8 +13,8 @@ const orderItemSchema = new mongoose.Schema(
 
 const orderSchema = new mongoose.Schema(
   {
-    user: { type: mongoose.Schema.Types.ObjectId, ref: 'User', required: true },
-    userPhone: { type: String, required: true },
+    user: { type: mongoose.Schema.Types.ObjectId, ref: 'User' },
+    userPhone: { type: String },
     items: { type: [orderItemSchema], required: true },
     totalAmount: { type: Number, required: true },
     status: {

@@ -129,7 +129,7 @@
             ],
             "body": {
               "mode": "raw",
-              "raw": "{\n  \"items\": [\n    {\n      \"productId\": \"64f0f7b2f1e12c9a1b234567\",\n      \"quantity\": 2\n    }\n  ],\n  \"notes\": \"Please deliver before 6 PM\"\n}"
+              "raw": "{\n  \"items\": [\n    {\n      \"productId\": \"64f0f7b2f1e12c9a1b234567\",\n      \"quantity\": 2\n    }\n  ],\n  \"phone\": \"+923001112233\",\n  \"notes\": \"Please deliver before 6 PM\"\n}"
             },
             "url": {
               "raw": "{{baseUrl}}/api/orders",

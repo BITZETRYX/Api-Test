@@ -54,8 +54,9 @@ Node.js + Express + MongoDB API with authentication, product listings, order han
 
 ### Orders
 - `POST /api/orders`
-  - Body: `{ "items": [{ "productId": "", "quantity": 1 }], "notes": "" }`
+  - Body: `{ "items": [{ "productId": "", "quantity": 1 }], "notes": "", "phone": "" }`
 - `GET /api/orders`
+  - Optional query: `phone`
 
 ### Logs
 - `GET /api/logs?limit=100`
